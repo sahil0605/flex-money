@@ -84,6 +84,7 @@ const SignupForm = () => {
           }}
           name="password"
           placeholder="Create New Password"
+          type="password"
         />
         <button
           style={{ width: "100%", backgroundColor: "gray" }}
