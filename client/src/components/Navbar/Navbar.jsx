@@ -24,7 +24,7 @@ const Navbar = () => {
           <div onClick={() => navigate('/form')}>Admission Form</div>
           <div onClick={() => alert('Coming Soon')}>Contact</div>
           {cookies.access_token ? (
-            <div onClick={handleLogout}>Logout User </div>
+            <div onClick={handleLogout}>Logout User</div>
           ) : (
             <div onClick={() => navigate('/login')}>Login/Signup</div>
           )}

@@ -29,7 +29,7 @@ const LoginForm = () => {
     }
 
     try {
-      const result = await axios.post("http://localhost:3700/user/login", {
+      const result = await axios.post("https://enchanting-teal-llama.cyclic.cloud/user/login", {
         user_data
       });
       console.log(result)

@@ -24,7 +24,7 @@ const AdmissionForm = () => {
     const email = localStorage.getItem("email");
     console.log(email);
     const res = await axios.get(
-      `http://localhost:3700/admission/single?email=${email}`
+      `https://enchanting-teal-llama.cyclic.cloud/admission/single?email=${email}`
     );
     const dateIs = res.data.data.date.split("-")[1]
     let today = new Date().toLocaleDateString().split("/")[0]

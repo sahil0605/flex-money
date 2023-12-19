@@ -36,7 +36,7 @@ const SignupForm = () => {
     const email = user_data.email;
     const password = user_data.password;
     try {
-      const res = await axios.post("http://localhost:3700/user/register", {
+      const res = await axios.post("https://enchanting-teal-llama.cyclic.cloud/user/register", {
         username,
         email,
         password,

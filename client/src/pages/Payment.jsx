@@ -17,7 +17,7 @@ const Payment = () => {
         // console.log("called")
         try {
             const res = await axios.post(
-              "http://localhost:3700/admission/postData",
+              "https://enchanting-teal-llama.cyclic.cloud/admission/postData",
               {
                 user_data,
               }
