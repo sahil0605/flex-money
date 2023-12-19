@@ -1,8 +1,11 @@
 .home_parent {
     width: 100%;
+    
   }
   .home_parent > img {
     width: 100%;
+    
+    
   }
   
   @media (min-width: 200px) and (max-width: 500px) {

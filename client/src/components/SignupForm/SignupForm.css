@@ -1,7 +1,8 @@
 .signup_form_div {
-    height: 850px;
+    height: fit-content;
     opacity: 100%;
     padding-top: 10px;
+
   }
   .signup_form_parent {
     background-color: white;

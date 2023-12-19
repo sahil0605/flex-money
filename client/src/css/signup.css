@@ -1,7 +1,7 @@
-.login_parent {
+.signup_parent {
     position: sticky;
-    height: 560px;
-    opacity: 95%;
+    height: 100%;
+    opacity: 85%;
   }
   .nav_block_area {
     height: 80px;

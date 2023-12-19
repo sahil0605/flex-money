@@ -1,5 +1,5 @@
 .admission_form_div {
-    height: 850px;
+    height: 550px;
     opacity: 100%;
     padding-top: 10px;
   }
@@ -39,7 +39,7 @@
     padding: 10px;
   }
   
-  @media (min-width: 200px) and (max-width: 700px) {
+  @media (min-width: 200px) and (max-width: 550px) {
     .admission_form_parent {
       background-color: white;
       border-radius: 5%;
@@ -52,4 +52,38 @@
       display: grid;
       gap: 20px;
     }
+    .admission_form_input_parent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
+      .admission_form_div {
+        height: 730px;
+        opacity: 100%;
+        padding-top: 10px;
+      }
+  }
+  @media (min-width: 550px) and (max-width: 1232px) {
+    .admission_form_parent {
+      background-color: white;
+      border-radius: 5%;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      width: 65%;
+      padding: 20px;
+      margin: auto;
+      margin-top: 5%;
+      display: grid;
+      gap: 20px;
+    }
+    .admission_form_input_parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+      }
+      .admission_form_div {
+        height: 730px;
+        opacity: 100%;
+        padding-top: 10px;
+      }
   }
